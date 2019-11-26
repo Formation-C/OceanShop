@@ -1,6 +1,8 @@
 #ifndef PRODUCT_H
 #define PRODUCT_H
 
+#include <iostream>
+using namespace std;
 
 class Product
 {
@@ -9,11 +11,13 @@ class Product
         float price;
         int productSize;
         string model;
+        bool isOff;
 
         Product();
         virtual ~Product();
 
-        void turnOnOff();
+        // Méthode virtuelle: cette méthode rend la classe abstraite
+        virtual void turnOnOff() = 0;
 
     protected:
 

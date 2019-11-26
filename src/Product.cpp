@@ -2,6 +2,7 @@
 
 Product::Product()
 {
+    isOff = true;
     //ctor
 }
 
