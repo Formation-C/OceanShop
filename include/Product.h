@@ -2,6 +2,8 @@
 #define PRODUCT_H
 
 #include <iostream>
+#include "Brand.h"
+
 using namespace std;
 
 class Product
@@ -12,8 +14,9 @@ class Product
         int productSize;
         string model;
         bool isOff;
+        Brand *brand;
 
-        Product();
+        Product(Brand* _brand);
         virtual ~Product();
 
         // Méthode virtuelle: cette méthode rend la classe abstraite

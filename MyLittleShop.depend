@@ -1,17 +1,24 @@
 # depslib dependency file v1.0
-1574779247 source:d:\devt\formationcpp\mylittleshop\main.cpp
+1574783195 source:d:\devt\formationcpp\mylittleshop\main.cpp
 	<iostream>
 	"Computer.h"
 
-1574779092 d:\devt\formationcpp\mylittleshop\include\product.h
+1574781903 d:\devt\formationcpp\mylittleshop\include\product.h
 	<iostream>
+	"Brand.h"
 
-1574779245 source:d:\devt\formationcpp\mylittleshop\src\product.cpp
+1574781911 source:d:\devt\formationcpp\mylittleshop\src\product.cpp
 	"Product.h"
 
-1574780570 source:d:\devt\formationcpp\mylittleshop\src\computer.cpp
+1574782983 source:d:\devt\formationcpp\mylittleshop\src\computer.cpp
 	"Computer.h"
 
-1574776931 d:\devt\formationcpp\mylittleshop\include\computer.h
+1574782640 d:\devt\formationcpp\mylittleshop\include\computer.h
 	<Product.h>
+
+1574781545 source:d:\devt\formationcpp\mylittleshop\src\brand.cpp
+	"Brand.h"
+
+1574781592 d:\devt\formationcpp\mylittleshop\include\brand.h
+	<iostream>
 

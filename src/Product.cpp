@@ -1,9 +1,10 @@
 #include "Product.h"
 
-Product::Product()
+Product::Product(Brand* _brand)
 {
-    isOff = true;
     //ctor
+    isOff = true;
+    brand = _brand;
 }
 
 Product::~Product()

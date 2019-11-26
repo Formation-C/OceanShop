@@ -6,13 +6,15 @@
 // Computer inherit from Product
 class Computer : public Product
 {
+    using Product::Product;
+
     public:
         int ram;
         int screenSize;
         bool isLaptop;
 
-        Computer();
-        Computer(int _ram, int _screenSize, bool _isLaptop);
+        //Computer(Brand* _brand);
+        Computer(Brand* _brand, int _ram, int _screenSize, bool _isLaptop);
         virtual ~Computer();
 
         void turnOnOff(void);
